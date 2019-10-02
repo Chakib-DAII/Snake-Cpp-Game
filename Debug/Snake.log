@@ -1,0 +1,44 @@
+﻿Build started 06/05/2016 06:30:42.
+     1>Project "C:\Users\Chakib\documents\visual studio 2010\Projects\Snake\Snake\Snake.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Snake.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Snake.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Snake.cpp
+         Snake.cpp
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(71): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(72): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(336): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(341): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(344): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(347): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(350): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+     1>c:\users\chakib\documents\visual studio 2010\projects\snake\snake\snake.cpp(352): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chakib\documents\visual studio 2010\Projects\Snake\Debug\Snake.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Snake.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Chakib\documents\visual studio 2010\Projects\Snake\Debug\Snake.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chakib\documents\visual studio 2010\Projects\Snake\Debug\Snake.lib" /MACHINE:X86 Debug\Snake.exe.embed.manifest.res
+         Debug\Snake.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Snake.exe.embed.manifest" /manifest Debug\Snake.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Snake.vcxproj -> C:\Users\Chakib\documents\visual studio 2010\Projects\Snake\Debug\Snake.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Snake.unsuccessfulbuild".
+         Touching "Debug\Snake.lastbuildstate".
+     1>Done Building Project "C:\Users\Chakib\documents\visual studio 2010\Projects\Snake\Snake\Snake.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.90
